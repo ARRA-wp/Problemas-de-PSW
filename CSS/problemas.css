@@ -34,9 +34,13 @@
     
 }
 
+
+
 *{
     padding: 0%;
+    /*
     background-color: #61fd95;
+    */
     align-items: center;
 }
 
@@ -57,13 +61,14 @@ p{
     color: #000000;
 }
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lexend Deca";
+	margin: 1;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lexend Deca";
 }
 header{
-    background: #48c959;
+    background: #49d668;
+    align-items: center;
 }
 body{
     background-color: rgb(69, 175, 175);
@@ -91,6 +96,7 @@ header nav .inicio{
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
+    background-color: aquamarine;
 }
 header nav .inicio .links{
     display: flex ;
@@ -111,3 +117,13 @@ header nav .inicio .links a:hover{
 header nav .inicio .links a.active{
     border-bottom-color: darkblue;
 }
+
+.Pp  {
+    border: 2ch;
+    padding: 2ch;
+    justify-content: center;
+    margin: 2rem;
+    background-color: aqua;
+}
+
+
